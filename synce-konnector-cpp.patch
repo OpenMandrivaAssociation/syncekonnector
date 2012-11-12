@@ -1,0 +1,13 @@
+Index: librakikpimsync/synceengine.h
+===================================================================
+--- librakikpimsync/synceengine.h
++++ librakikpimsync/synceengine.h	2006-12-01 03:34:40.135685881 +0100
+@@ -86,7 +86,7 @@
+ 
+   private:
+     void doSync();
+-    template<class T> T  *SynCEEngine::templateSyncee(SynceeList *synceeList) const;
++    template<class T> T  *templateSyncee(SynceeList *synceeList) const;
+ 
+     Konnector::List mOpenedKonnectors;
+     Konnector::List mProcessedKonnectors;
