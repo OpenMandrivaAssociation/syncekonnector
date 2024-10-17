@@ -9,7 +9,7 @@ License: 	MIT
 Summary: 	KDE IO connector to access to Windows modile
 Group: 		Graphical desktop/KDE
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
-URL:    	http://synce.sourceforge.net/synce/kde
+URL:    	https://synce.sourceforge.net/synce/kde
 Source: 	http://ovh.dl.sourceforge.net/sourceforge/synce/%name-%version.tar.bz2
 Patch0:     synce-konnector-cpp.patch
 
