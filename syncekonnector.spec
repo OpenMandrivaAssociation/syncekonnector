@@ -13,6 +13,11 @@ URL:    	https://synce.sourceforge.net/synce/kde
 Source: 	http://ovh.dl.sourceforge.net/sourceforge/synce/%name-%version.tar.bz2
 Patch0:     synce-konnector-cpp.patch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libsynce-devel
 BuildRequires:	kdebase-devel qt3-devel
 BuildRequires:  kdepim-devel
